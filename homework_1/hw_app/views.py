@@ -1,9 +1,10 @@
+from django.shortcuts import render
 
+# Create your views here.
 import logging
 from django.http import HttpResponse
 
 logger = logging.getLogger(__name__)
-
 
 def index(request):
     html = """
@@ -12,7 +13,7 @@ def index(request):
     """
 
     # Сохраняем данные в логи
-    logging.info('Посещение страницы "главная"')
+    logger.info('Посещение страницы "главная"')
 
     return HttpResponse(html)
 
@@ -25,7 +26,7 @@ def about(request):
     """
 
     # Сохраняем данные в логи
-    logging.info('Посещение страницы "о себе"')
+    logger.info('Посещение страницы "о себе"')
 
     return HttpResponse(html)
 
