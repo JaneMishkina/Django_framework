@@ -655,3 +655,48 @@ Traceback (most recent call last):
              ~~^~~
 ZeroDivisionError: division by zero
 INFO 2024-03-26 12:09:10,135 basehttp 12344 12564 "GET /prefix/about/ HTTP/1.1" 200 27
+INFO 2024-04-08 17:28:00,431 autoreload 12976 12532 Watching for file changes with StatReloader
+INFO 2024-04-08 17:29:40,498 autoreload 12976 12532 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-08 17:29:41,116 autoreload 8444 9536 Watching for file changes with StatReloader
+INFO 2024-04-08 17:32:07,664 autoreload 8444 9536 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-08 17:32:08,588 autoreload 6980 16328 Watching for file changes with StatReloader
+INFO 2024-04-08 17:45:48,586 autoreload 6980 16328 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp\apps.py changed, reloading.
+INFO 2024-04-08 17:45:50,057 autoreload 8824 9644 Watching for file changes with StatReloader
+WARNING 2024-04-08 17:45:55,662 log 8824 14048 Not Found: /
+WARNING 2024-04-08 17:45:55,663 basehttp 8824 14048 "GET / HTTP/1.1" 404 179
+WARNING 2024-04-08 17:46:12,265 log 8824 14048 Not Found: /about/
+WARNING 2024-04-08 17:46:12,265 basehttp 8824 14048 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:46:14,780 log 8824 14048 Not Found: /about/
+WARNING 2024-04-08 17:46:14,782 basehttp 8824 14048 "GET /about/ HTTP/1.1" 404 179
+INFO 2024-04-08 17:47:03,544 autoreload 8824 9644 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp\views.py changed, reloading.
+INFO 2024-04-08 17:47:04,423 autoreload 8300 15020 Watching for file changes with StatReloader
+WARNING 2024-04-08 17:47:06,504 log 8300 11296 Not Found: /
+WARNING 2024-04-08 17:47:06,505 basehttp 8300 11296 "GET / HTTP/1.1" 404 179
+WARNING 2024-04-08 17:47:09,883 log 8300 11296 Not Found: /about/
+WARNING 2024-04-08 17:47:09,885 basehttp 8300 11296 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:47:11,589 log 8300 11296 Not Found: /about/
+WARNING 2024-04-08 17:47:11,591 basehttp 8300 11296 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:47:31,924 log 8300 11296 Not Found: /about/
+WARNING 2024-04-08 17:47:31,925 basehttp 8300 11296 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:47:35,648 log 8300 11296 Not Found: /uindex
+WARNING 2024-04-08 17:47:35,648 basehttp 8300 11296 "GET /uindex HTTP/1.1" 404 179
+WARNING 2024-04-08 17:47:41,520 log 8300 11296 Not Found: /index
+WARNING 2024-04-08 17:47:41,521 basehttp 8300 11296 "GET /index HTTP/1.1" 404 179
+INFO 2024-04-08 17:48:46,691 autoreload 8300 15020 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp\urls.py changed, reloading.
+INFO 2024-04-08 17:48:47,539 autoreload 7224 13736 Watching for file changes with StatReloader
+WARNING 2024-04-08 17:48:51,706 log 7224 8684 Not Found: /
+WARNING 2024-04-08 17:48:51,707 basehttp 7224 8684 "GET / HTTP/1.1" 404 179
+WARNING 2024-04-08 17:48:55,954 log 7224 8684 Not Found: /about/
+WARNING 2024-04-08 17:48:55,955 basehttp 7224 8684 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:48:57,640 log 7224 8684 Not Found: /about/
+WARNING 2024-04-08 17:48:57,642 basehttp 7224 8684 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:49:26,642 log 7224 8684 Not Found: /about/
+WARNING 2024-04-08 17:49:26,644 basehttp 7224 8684 "GET /about/ HTTP/1.1" 404 179
+WARNING 2024-04-08 17:49:31,308 log 7224 8684 Not Found: /index
+WARNING 2024-04-08 17:49:31,309 basehttp 7224 8684 "GET /index HTTP/1.1" 404 179
+INFO 2024-04-08 17:49:46,312 autoreload 15540 15124 Watching for file changes with StatReloader
+WARNING 2024-04-08 17:49:51,610 log 15540 12512 Not Found: /
+WARNING 2024-04-08 17:49:51,612 basehttp 15540 12512 "GET / HTTP/1.1" 404 179
+INFO 2024-04-08 18:20:07,300 autoreload 12020 16324 Watching for file changes with StatReloader
+INFO 2024-04-08 18:24:42,167 autoreload 15528 11888 Watching for file changes with StatReloader
+INFO 2024-04-08 18:34:43,841 autoreload 14980 13712 Watching for file changes with StatReloader
