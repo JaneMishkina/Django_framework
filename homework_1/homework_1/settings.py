@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hw_app',
+    'hw_app2',
 ]
 
 MIDDLEWARE = [
@@ -136,7 +137,8 @@ LOGGING = {
         },
         'file': {
             'class': 'logging.FileHandler',
-            'filename': 'django.log',
+            'filename': 'django.log', #без добавления отдельной папки
+            #'filename': '.log/django.log', #нужно вручную создать папку log
             'formatter': 'verbose',  # добавлен параметр formatter
         },
     },
@@ -146,6 +148,11 @@ LOGGING = {
             'level': 'INFO',
         },
         'hw_app': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw_app2': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,
