@@ -700,3 +700,510 @@ WARNING 2024-04-08 17:49:51,612 basehttp 15540 12512 "GET / HTTP/1.1" 404 179
 INFO 2024-04-08 18:20:07,300 autoreload 12020 16324 Watching for file changes with StatReloader
 INFO 2024-04-08 18:24:42,167 autoreload 15528 11888 Watching for file changes with StatReloader
 INFO 2024-04-08 18:34:43,841 autoreload 14980 13712 Watching for file changes with StatReloader
+INFO 2024-04-10 17:50:31,488 autoreload 6936 14472 Watching for file changes with StatReloader
+WARNING 2024-04-10 17:50:54,154 log 6936 7920 Not Found: /
+WARNING 2024-04-10 17:50:54,154 basehttp 6936 7920 "GET / HTTP/1.1" 404 179
+INFO 2024-04-10 17:54:17,979 autoreload 6936 14472 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-10 17:54:18,829 autoreload 7504 15516 Watching for file changes with StatReloader
+WARNING 2024-04-10 17:54:21,095 log 7504 5912 Not Found: /
+WARNING 2024-04-10 17:54:21,097 basehttp 7504 5912 "GET / HTTP/1.1" 404 2274
+WARNING 2024-04-10 18:33:46,283 log 7504 16180 Not Found: /about/
+WARNING 2024-04-10 18:33:46,283 basehttp 7504 16180 "GET /about/ HTTP/1.1" 404 2310
+WARNING 2024-04-10 18:33:54,863 log 7504 16180 Not Found: /les3/ hello
+WARNING 2024-04-10 18:33:54,865 basehttp 7504 16180 "GET /les3/%20hello HTTP/1.1" 404 2568
+INFO 2024-04-10 18:34:24,071 basehttp 7504 16180 "GET /les3/hello HTTP/1.1" 301 0
+INFO 2024-04-10 18:34:24,075 basehttp 7504 9060 "GET /les3/hello/ HTTP/1.1" 200 26
+INFO 2024-04-10 18:34:28,899 basehttp 7504 9060 "GET /les3/hello2/ HTTP/1.1" 200 23
+INFO 2024-04-10 23:23:31,414 autoreload 7504 15516 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-10 23:23:41,377 autoreload 1308 5996 Watching for file changes with StatReloader
+INFO 2024-04-10 23:24:10,008 autoreload 1308 5996 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-10 23:24:11,350 autoreload 6064 8532 Watching for file changes with StatReloader
+INFO 2024-04-10 23:27:53,708 autoreload 6064 8532 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-10 23:27:55,349 autoreload 7772 11664 Watching for file changes with StatReloader
+INFO 2024-04-10 23:29:12,498 autoreload 7772 11664 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-10 23:29:13,913 autoreload 2292 1900 Watching for file changes with StatReloader
+INFO 2024-04-10 23:29:36,024 autoreload 2292 1900 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-10 23:29:37,627 autoreload 10788 7936 Watching for file changes with StatReloader
+INFO 2024-04-10 23:29:55,576 autoreload 10788 7936 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\models.py changed, reloading.
+INFO 2024-04-10 23:29:57,147 autoreload 12992 9372 Watching for file changes with StatReloader
+INFO 2024-04-10 23:42:26,504 basehttp 12992 364 "GET /les3/posts/2023 HTTP/1.1" 301 0
+INFO 2024-04-10 23:42:26,509 basehttp 12992 8728 "GET /les3/posts/2023/ HTTP/1.1" 200 19
+INFO 2024-04-10 23:44:04,343 basehttp 12992 8728 "GET /les3/posts/2023/6 HTTP/1.1" 301 0
+INFO 2024-04-10 23:44:04,347 basehttp 12992 7420 "GET /les3/posts/2023/6/ HTTP/1.1" 200 21
+INFO 2024-04-10 23:48:37,407 basehttp 12992 7420 "GET /les3/posts/2023/6/fdsgds HTTP/1.1" 301 0
+INFO 2024-04-10 23:48:37,451 basehttp 12992 14360 "GET /les3/posts/2023/6/fdsgds/ HTTP/1.1" 200 360
+INFO 2024-04-11 00:08:39,290 autoreload 12992 9372 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:08:40,815 autoreload 7192 15156 Watching for file changes with StatReloader
+INFO 2024-04-11 00:09:26,402 autoreload 7192 15156 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:09:27,828 autoreload 9816 4968 Watching for file changes with StatReloader
+INFO 2024-04-11 00:09:43,828 autoreload 9816 4968 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:09:45,348 autoreload 2940 10160 Watching for file changes with StatReloader
+INFO 2024-04-11 00:10:01,246 autoreload 2940 10160 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:10:02,779 autoreload 11308 2224 Watching for file changes with StatReloader
+INFO 2024-04-11 00:10:37,933 autoreload 11308 2224 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:10:39,766 autoreload 10788 14844 Watching for file changes with StatReloader
+INFO 2024-04-11 00:13:05,670 autoreload 10788 14844 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 00:13:07,017 autoreload 3676 4320 Watching for file changes with StatReloader
+INFO 2024-04-11 00:13:17,433 autoreload 3676 4320 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 00:13:19,020 autoreload 10188 12344 Watching for file changes with StatReloader
+INFO 2024-04-11 00:17:02,099 basehttp 10188 13952 "GET /les3/ HTTP/1.1" 200 775
+INFO 2024-04-11 00:23:19,067 autoreload 10188 12344 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:23:20,617 autoreload 8640 2704 Watching for file changes with StatReloader
+INFO 2024-04-11 00:24:03,719 autoreload 8640 2704 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:24:05,133 autoreload 13748 2448 Watching for file changes with StatReloader
+INFO 2024-04-11 00:24:39,842 autoreload 13748 2448 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:24:41,296 autoreload 8928 10168 Watching for file changes with StatReloader
+INFO 2024-04-11 00:25:28,905 autoreload 8928 10168 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 00:25:30,840 autoreload 1228 6636 Watching for file changes with StatReloader
+WARNING 2024-04-11 00:28:00,481 log 1228 13996 Not Found: /les3/if/
+WARNING 2024-04-11 00:28:00,483 basehttp 1228 13996 "GET /les3/if/ HTTP/1.1" 404 3359
+INFO 2024-04-11 00:28:58,577 autoreload 1228 6636 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 00:29:00,528 autoreload 9292 7852 Watching for file changes with StatReloader
+INFO 2024-04-11 00:29:10,636 autoreload 9292 7852 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 00:29:12,144 autoreload 8200 2704 Watching for file changes with StatReloader
+INFO 2024-04-11 00:29:16,258 basehttp 8200 2888 "GET /les3/if/ HTTP/1.1" 200 327
+INFO 2024-04-11 12:53:34,017 autoreload 13284 2600 Watching for file changes with StatReloader
+WARNING 2024-04-11 12:53:36,395 log 13284 12924 Not Found: /
+WARNING 2024-04-11 12:53:36,398 basehttp 13284 12924 "GET / HTTP/1.1" 404 2274
+WARNING 2024-04-11 12:53:39,423 log 13284 12924 Not Found: /about/
+WARNING 2024-04-11 12:53:39,423 basehttp 13284 12924 "GET /about/ HTTP/1.1" 404 2310
+INFO 2024-04-11 12:53:45,852 basehttp 13284 12924 "GET /les3/for/ HTTP/1.1" 200 1351
+INFO 2024-04-11 14:04:45,733 autoreload 13284 2600 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py changed, reloading.
+INFO 2024-04-11 14:04:46,749 autoreload 4800 10696 Watching for file changes with StatReloader
+INFO 2024-04-11 14:07:36,489 autoreload 4800 10696 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:07:37,382 autoreload 9604 4384 Watching for file changes with StatReloader
+INFO 2024-04-11 14:07:44,752 autoreload 9604 4384 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:07:45,604 autoreload 1664 3824 Watching for file changes with StatReloader
+INFO 2024-04-11 14:08:54,409 autoreload 1664 3824 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:08:56,021 autoreload 7584 7148 Watching for file changes with StatReloader
+INFO 2024-04-11 14:09:08,183 autoreload 7584 7148 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:09:09,055 autoreload 7536 12096 Watching for file changes with StatReloader
+INFO 2024-04-11 14:09:29,836 autoreload 7536 12096 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:09:30,806 autoreload 6020 11976 Watching for file changes with StatReloader
+WARNING 2024-04-11 14:09:57,469 log 6020 248 Not Found: /
+WARNING 2024-04-11 14:09:57,469 basehttp 6020 248 "GET / HTTP/1.1" 404 2274
+WARNING 2024-04-11 14:10:01,510 log 6020 248 Not Found: /about/
+WARNING 2024-04-11 14:10:01,519 basehttp 6020 248 "GET /about/ HTTP/1.1" 404 2310
+ERROR 2024-04-11 14:10:10,749 log 6020 248 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 95, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-11 14:10:10,769 basehttp 6020 248 "GET /les3/index/ HTTP/1.1" 500 125810
+ERROR 2024-04-11 14:12:16,883 log 6020 248 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 95, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-11 14:12:16,900 basehttp 6020 248 "GET /les3/index/ HTTP/1.1" 500 125947
+ERROR 2024-04-11 14:12:21,516 log 6020 248 Internal Server Error: /les3/index/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 95, in index
+    return render(request, 'myapp3/index.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-11 14:12:21,532 basehttp 6020 248 "GET /les3/index/ HTTP/1.1" 500 125947
+INFO 2024-04-11 14:14:09,873 basehttp 6020 248 "GET /les3/index/ HTTP/1.1" 200 1177
+ERROR 2024-04-11 14:14:32,194 log 6020 248 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 99, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'app/base.html'> must be the first tag in the template.
+ERROR 2024-04-11 14:14:32,202 basehttp 6020 248 "GET /les3/about/ HTTP/1.1" 500 142561
+INFO 2024-04-11 14:15:49,873 basehttp 6020 248 "GET /les3/about HTTP/1.1" 301 0
+ERROR 2024-04-11 14:15:49,906 log 6020 5752 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 99, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'app/base.html'> must be the first tag in the template.
+ERROR 2024-04-11 14:15:49,922 basehttp 6020 5752 "GET /les3/about/ HTTP/1.1" 500 142561
+ERROR 2024-04-11 14:15:52,971 log 6020 5752 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 99, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'app/base.html'> must be the first tag in the template.
+ERROR 2024-04-11 14:15:52,971 basehttp 6020 5752 "GET /les3/about/ HTTP/1.1" 500 142698
+INFO 2024-04-11 14:16:32,756 autoreload 6020 11976 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:16:33,689 autoreload 2272 8360 Watching for file changes with StatReloader
+WARNING 2024-04-11 14:17:02,910 log 2272 1632 Not Found: /
+WARNING 2024-04-11 14:17:02,911 basehttp 2272 1632 "GET / HTTP/1.1" 404 2274
+INFO 2024-04-11 14:17:03,835 autoreload 2272 8360 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\urls.py changed, reloading.
+INFO 2024-04-11 14:17:04,592 autoreload 10668 9356 Watching for file changes with StatReloader
+WARNING 2024-04-11 14:17:05,708 log 10668 13004 Not Found: /about/
+WARNING 2024-04-11 14:17:05,717 basehttp 10668 13004 "GET /about/ HTTP/1.1" 404 2310
+ERROR 2024-04-11 14:17:13,325 log 10668 13004 Internal Server Error: /les3/about/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp3\views.py", line 99, in about
+    return render(request, 'myapp3/about.html')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 510, in parse
+    raise self.error(token, e)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 508, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 511, in parse
+    self.extend_nodelist(nodelist, compiled_result, token)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 528, in extend_nodelist
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: <ExtendsNode: extends 'app/base.html'> must be the first tag in the template.
+ERROR 2024-04-11 14:17:13,337 basehttp 10668 13004 "GET /les3/about/ HTTP/1.1" 500 142561
+INFO 2024-04-11 14:18:45,880 basehttp 10668 13004 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2024-04-11 14:22:18,295 autoreload 10668 9356 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-11 14:22:19,253 autoreload 6796 10168 Watching for file changes with StatReloader
+INFO 2024-04-11 14:24:25,800 autoreload 6796 10168 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-11 14:24:26,654 autoreload 10992 376 Watching for file changes with StatReloader
+INFO 2024-04-11 15:28:18,970 basehttp 10992 1540 "GET /les3/index/ HTTP/1.1" 200 311
+INFO 2024-04-11 15:28:59,546 basehttp 10992 1540 "GET /les3/index/ HTTP/1.1" 200 311
+INFO 2024-04-11 15:29:04,575 basehttp 10992 1540 "GET /les3/index/ HTTP/1.1" 200 311
+INFO 2024-04-11 15:29:36,064 basehttp 10992 1540 "GET /les3/ HTTP/1.1" 200 775
+INFO 2024-04-11 15:29:48,830 basehttp 10992 1540 "GET /les3/about/ HTTP/1.1" 200 1608
+INFO 2024-04-11 15:30:04,771 basehttp 10992 1540 "GET /les3/index/ HTTP/1.1" 200 311
+INFO 2024-04-11 15:30:52,752 basehttp 10992 1540 "GET /les3/index HTTP/1.1" 301 0
+INFO 2024-04-11 15:30:52,755 basehttp 10992 2536 "GET /les3/index/ HTTP/1.1" 200 311
+INFO 2024-04-11 15:31:27,775 basehttp 10992 2536 "GET /les3/index/ HTTP/1.1" 200 310
+INFO 2024-04-11 15:32:59,494 autoreload 10992 376 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-11 15:33:00,381 autoreload 11900 7344 Watching for file changes with StatReloader
+INFO 2024-04-11 15:33:34,249 autoreload 11900 7344 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-11 15:33:35,149 autoreload 9988 12484 Watching for file changes with StatReloader
+INFO 2024-04-11 15:34:01,456 autoreload 9988 12484 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\urls.py changed, reloading.
+INFO 2024-04-11 15:34:02,373 autoreload 7728 4204 Watching for file changes with StatReloader
+INFO 2024-04-11 15:34:46,726 basehttp 7728 7908 "GET / HTTP/1.1" 200 310
+INFO 2024-04-11 15:34:52,736 basehttp 7728 7908 "GET / HTTP/1.1" 200 310
+INFO 2024-04-11 16:50:25,351 autoreload 9292 8584 Watching for file changes with StatReloader
+INFO 2024-04-11 16:50:27,379 basehttp 9292 9892 "GET / HTTP/1.1" 200 310
+INFO 2024-04-11 16:51:05,302 basehttp 9292 9892 "GET /les3/author/5 HTTP/1.1" 301 0
+INFO 2024-04-11 16:51:05,340 basehttp 9292 3488 "GET /les3/author/5/ HTTP/1.1" 200 1246
+INFO 2024-04-11 16:51:17,619 basehttp 9292 3488 "GET /les3/author/1 HTTP/1.1" 301 0
+INFO 2024-04-11 16:51:17,619 basehttp 9292 4180 "GET /les3/author/1/ HTTP/1.1" 200 1287
+INFO 2024-04-11 16:51:48,552 basehttp 9292 4180 "GET /les3/post/10/ HTTP/1.1" 200 596
+INFO 2024-04-11 16:52:14,827 basehttp 9292 4180 "GET /les3/post/48 HTTP/1.1" 301 0
+INFO 2024-04-11 16:52:14,837 basehttp 9292 448 "GET /les3/post/48/ HTTP/1.1" 200 624

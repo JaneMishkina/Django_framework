@@ -1,0 +1,13 @@
+<!--Шаблон статьи-->
+
+{% extends 'base.html' %}
+
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+{% endblock %}>
+
+<!--В шаблоне мы также переопределили блок title и добавили содержимое в блок content. -->
+<!--Выводим заголовок и полный текст поста.-->

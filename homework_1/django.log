@@ -10,3 +10,8 @@ INFO 2024-04-08 18:11:04,805 basehttp 8264 11336 "GET / HTTP/1.1" 200 240
 INFO 2024-04-08 18:11:10,081 views 8264 11336 Посещение страницы "о себе"
 INFO 2024-04-08 18:11:10,085 basehttp 8264 11336 "GET /about/ HTTP/1.1" 200 408
 INFO 2024-04-09 18:39:43,939 autoreload 4428 10084 Watching for file changes with StatReloader
+INFO 2024-04-11 12:52:32,764 autoreload 384 12664 Watching for file changes with StatReloader
+WARNING 2024-04-11 12:52:35,925 log 384 604 Not Found: /
+WARNING 2024-04-11 12:52:35,929 basehttp 384 604 "GET / HTTP/1.1" 404 2283
+WARNING 2024-04-11 12:52:36,024 log 384 604 Not Found: /favicon.ico
+WARNING 2024-04-11 12:52:36,024 basehttp 384 604 "GET /favicon.ico HTTP/1.1" 404 2334
