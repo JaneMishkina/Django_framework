@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h3>{{ message }}</h3>
+    <form action="" method="post">
+        {% csrf_token %}
+<!--        Он обеспечивает защиту данных формы от  изменений злоумышленниками. Так называемая защита от CSRF атак.-->
+        {{ form.as_div }}
+        <input type="submit" value="Отправить">
+    </form>
+
+{% endblock %}

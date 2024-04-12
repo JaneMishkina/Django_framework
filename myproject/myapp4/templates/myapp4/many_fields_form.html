@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Демонстрация полей формы{% endblock %}
+
+{% block content %}
+
+    <form action="" method="post">
+        {% csrf_token %}
+            {{ form.as_p }}
+        <input type="submit" value="Отправить">
+    </form>
+
+{% endblock %}
+
+<!--В отличие от прошлого шаблона был добавлен вызов метода as_p через точку после переменной form. -->
+<!--Так мы отрисовываем html файл с выводом каждого поля формы как отдельный абзац.-->

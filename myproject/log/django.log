@@ -1207,3 +1207,199 @@ INFO 2024-04-11 16:51:17,619 basehttp 9292 4180 "GET /les3/author/1/ HTTP/1.1" 2
 INFO 2024-04-11 16:51:48,552 basehttp 9292 4180 "GET /les3/post/10/ HTTP/1.1" 200 596
 INFO 2024-04-11 16:52:14,827 basehttp 9292 4180 "GET /les3/post/48 HTTP/1.1" 301 0
 INFO 2024-04-11 16:52:14,837 basehttp 9292 448 "GET /les3/post/48/ HTTP/1.1" 200 624
+INFO 2024-04-12 18:38:13,887 autoreload 5280 14508 Watching for file changes with StatReloader
+INFO 2024-04-12 18:38:16,394 basehttp 5280 9920 "GET / HTTP/1.1" 200 310
+INFO 2024-04-12 18:38:32,312 basehttp 5280 9920 "GET /les4/user/add/ HTTP/1.1" 200 607
+INFO 2024-04-12 18:44:34,430 basehttp 5280 11784 "GET /les4/user/add/ HTTP/1.1" 200 1062
+INFO 2024-04-12 18:45:59,063 basehttp 5280 11784 "POST /les4/user/add/ HTTP/1.1" 200 1109
+INFO 2024-04-12 18:46:09,921 basehttp 5280 11784 "POST /les4/user/add/ HTTP/1.1" 200 1109
+INFO 2024-04-12 18:46:13,318 basehttp 5280 11784 "POST /les4/user/add/ HTTP/1.1" 200 1109
+INFO 2024-04-12 18:46:56,877 basehttp 5280 11784 "POST /les4/user/add/ HTTP/1.1" 200 1109
+INFO 2024-04-12 18:48:37,079 autoreload 5280 14508 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-12 18:48:37,899 autoreload 11676 10640 Watching for file changes with StatReloader
+INFO 2024-04-12 18:48:44,860 autoreload 11676 10640 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-12 18:48:45,555 autoreload 9884 7264 Watching for file changes with StatReloader
+INFO 2024-04-12 18:48:52,563 basehttp 9884 2168 "GET / HTTP/1.1" 200 310
+INFO 2024-04-12 18:49:09,378 basehttp 9884 2168 "GET /les4/user/add/ HTTP/1.1" 200 1062
+INFO 2024-04-12 18:49:15,113 views 9884 2168 Получили name='vcbcb', email='ja@yandex.ru', age=34.
+INFO 2024-04-12 18:49:15,117 basehttp 9884 2168 "POST /les4/user/add/ HTTP/1.1" 200 1108
+INFO 2024-04-12 22:37:05,944 autoreload 9884 7264 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 22:37:06,962 autoreload 13204 7836 Watching for file changes with StatReloader
+INFO 2024-04-12 22:37:22,458 autoreload 13204 7836 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 22:37:23,294 autoreload 2472 15056 Watching for file changes with StatReloader
+INFO 2024-04-12 22:39:37,914 autoreload 2472 15056 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 22:39:38,935 autoreload 4956 11324 Watching for file changes with StatReloader
+INFO 2024-04-12 22:58:32,088 autoreload 4956 11324 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 22:58:33,295 autoreload 10280 4944 Watching for file changes with StatReloader
+INFO 2024-04-12 23:03:48,369 autoreload 10280 4944 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:03:49,131 autoreload 9916 8560 Watching for file changes with StatReloader
+INFO 2024-04-12 23:03:50,899 basehttp 9916 12460 "GET / HTTP/1.1" 200 352
+INFO 2024-04-12 23:04:06,885 basehttp 9916 12460 "GET /les4/forms HTTP/1.1" 301 0
+ERROR 2024-04-12 23:04:06,969 log 9916 15100 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py", line 36, in many_fields_form
+    form = ManyFieldsFormWidget()
+           ^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ManyFieldsFormWidget' is not defined. Did you mean: 'ManyFieldsForm'?
+ERROR 2024-04-12 23:04:06,976 basehttp 9916 15100 "GET /les4/forms/ HTTP/1.1" 500 66500
+INFO 2024-04-12 23:05:57,526 autoreload 9916 8560 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:05:58,575 autoreload 8592 5060 Watching for file changes with StatReloader
+INFO 2024-04-12 23:08:21,865 basehttp 8592 4488 "GET / HTTP/1.1" 200 352
+INFO 2024-04-12 23:08:22,632 autoreload 8592 5060 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:08:23,732 autoreload 4464 8084 Watching for file changes with StatReloader
+INFO 2024-04-12 23:08:40,362 basehttp 4464 13176 "GET /les4/forms/ HTTP/1.1" 200 1581
+INFO 2024-04-12 23:10:31,269 views 4464 13176 Получили form.cleaned_data={'name': 'xcxcvcx', 'email': 'xxcv@cxvcxv.ru', 'age': 20, 'height': 25.5, 'is_active': True, 'birthdate': datetime.date(2002, 6, 12), 'gender': 'F'}.
+ERROR 2024-04-12 23:10:31,324 log 4464 13176 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-12 23:10:31,326 basehttp 4464 13176 "POST /les4/forms/ HTTP/1.1" 500 69545
+INFO 2024-04-12 23:12:32,896 autoreload 4464 8084 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:12:33,675 autoreload 6336 14188 Watching for file changes with StatReloader
+INFO 2024-04-12 23:12:39,384 basehttp 6336 11224 "GET / HTTP/1.1" 200 352
+INFO 2024-04-12 23:12:55,549 basehttp 6336 11224 "GET /les4/forms/ HTTP/1.1" 200 1581
+INFO 2024-04-12 23:13:12,155 views 6336 11224 Получили form.cleaned_data={'name': 'sdvsv', 'email': 'svdsv@dsfs.ru', 'age': 20, 'height': 25.0, 'is_active': True, 'birthdate': datetime.date(2002, 6, 12), 'gender': 'M'}.
+ERROR 2024-04-12 23:13:12,210 log 6336 11224 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-12 23:13:12,213 basehttp 6336 11224 "POST /les4/forms/ HTTP/1.1" 500 69540
+INFO 2024-04-12 23:13:41,618 autoreload 6336 14188 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:13:42,457 autoreload 7584 11856 Watching for file changes with StatReloader
+INFO 2024-04-12 23:13:53,595 autoreload 7584 11856 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:13:54,367 autoreload 7816 11592 Watching for file changes with StatReloader
+INFO 2024-04-12 23:14:03,636 autoreload 7816 11592 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:14:04,543 autoreload 5760 15108 Watching for file changes with StatReloader
+INFO 2024-04-12 23:14:29,606 basehttp 5760 9744 "GET / HTTP/1.1" 200 352
+INFO 2024-04-12 23:14:30,030 autoreload 5760 15108 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:14:30,924 autoreload 12432 8684 Watching for file changes with StatReloader
+INFO 2024-04-12 23:14:38,150 basehttp 12432 2336 "GET /les4/forms/ HTTP/1.1" 200 1581
+INFO 2024-04-12 23:14:55,270 views 12432 2336 Получили form.cleaned_data={'name': 'Евгения', 'email': 'janemishkina@yandex.ru', 'age': 25, 'height': 25.0, 'is_active': True, 'birthdate': datetime.date(2009, 6, 12), 'gender': 'M'}.
+ERROR 2024-04-12 23:14:55,318 log 12432 2336 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-12 23:14:55,322 basehttp 12432 2336 "POST /les4/forms/ HTTP/1.1" 500 69558
+INFO 2024-04-12 23:16:27,448 autoreload 12432 8684 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:16:28,263 autoreload 13304 11220 Watching for file changes with StatReloader
+INFO 2024-04-12 23:16:49,163 autoreload 13304 11220 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 23:16:49,986 autoreload 15212 11532 Watching for file changes with StatReloader
+INFO 2024-04-12 23:16:53,111 basehttp 15212 14380 "GET /les4/forms/ HTTP/1.1" 200 1581
+INFO 2024-04-12 23:17:10,734 views 15212 14380 Получили form.cleaned_data={'name': 'fbdfbd', 'email': 'ja@yandex.ru', 'age': 20, 'height': 25.0, 'is_active': True, 'birthdate': datetime.date(2003, 6, 12), 'gender': 'M'}.
+ERROR 2024-04-12 23:17:10,785 log 15212 14380 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-12 23:17:10,788 basehttp 15212 14380 "POST /les4/forms/ HTTP/1.1" 500 69540
+INFO 2024-04-12 23:18:24,896 autoreload 15212 11532 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:18:25,626 autoreload 8312 9588 Watching for file changes with StatReloader
+INFO 2024-04-12 23:18:31,475 autoreload 8312 9588 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:18:32,202 autoreload 13472 5760 Watching for file changes with StatReloader
+INFO 2024-04-12 23:19:06,954 autoreload 13472 5760 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:19:07,786 autoreload 13268 13220 Watching for file changes with StatReloader
+INFO 2024-04-12 23:19:39,187 autoreload 13268 13220 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\models.py changed, reloading.
+INFO 2024-04-12 23:19:39,964 autoreload 12432 6512 Watching for file changes with StatReloader
+INFO 2024-04-12 23:20:09,462 basehttp 12432 13208 "GET /les4/forms/ HTTP/1.1" 200 1581
+INFO 2024-04-12 23:20:28,157 views 12432 13208 Получили form.cleaned_data={'name': 'fbdfbd', 'email': 'ja@yandex.ru', 'age': 20, 'height': 25.0, 'is_active': True, 'birthdate': datetime.date(2003, 6, 12), 'gender': 'M'}.
+ERROR 2024-04-12 23:20:28,209 log 12432 13208 Internal Server Error: /les4/forms/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myapp4.views.many_fields_form didn't return an HttpResponse object. It returned None instead.
+ERROR 2024-04-12 23:20:28,212 basehttp 12432 13208 "POST /les4/forms/ HTTP/1.1" 500 69540
+INFO 2024-04-12 23:21:16,852 autoreload 12432 6512 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 23:21:17,698 autoreload 11692 6680 Watching for file changes with StatReloader
+INFO 2024-04-12 23:38:45,829 autoreload 11692 6680 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 23:38:46,716 autoreload 11336 15128 Watching for file changes with StatReloader
+INFO 2024-04-12 23:39:19,490 autoreload 11336 15128 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:39:20,259 autoreload 12540 15192 Watching for file changes with StatReloader
+INFO 2024-04-12 23:39:36,753 autoreload 12540 15192 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:39:37,517 autoreload 13104 14192 Watching for file changes with StatReloader
+INFO 2024-04-12 23:40:14,691 autoreload 13104 14192 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:40:15,564 autoreload 13500 8772 Watching for file changes with StatReloader
+INFO 2024-04-12 23:40:41,904 autoreload 13500 8772 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:40:42,785 autoreload 13592 3252 Watching for file changes with StatReloader
+INFO 2024-04-12 23:44:40,958 basehttp 13592 2380 "GET /les4/forms/ HTTP/1.1" 200 1540
+INFO 2024-04-12 23:44:56,898 views 13592 2380 Получили form.cleaned_data={'name': 'fbdfbd', 'email': 'ja@yandex.ru', 'age': 20, 'height': 25.4, 'is_active': True, 'birthdate': datetime.date(2004, 4, 12), 'gender': 'M'}.
+INFO 2024-04-12 23:44:56,903 basehttp 13592 2380 "POST /les4/forms/ HTTP/1.1" 200 1617
+INFO 2024-04-12 23:58:37,382 autoreload 13592 3252 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-12 23:58:38,513 autoreload 9596 11336 Watching for file changes with StatReloader
+INFO 2024-04-12 23:59:46,907 autoreload 9596 11336 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-12 23:59:48,009 autoreload 6784 11604 Watching for file changes with StatReloader
+INFO 2024-04-13 00:00:33,798 autoreload 6784 11604 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-13 00:00:34,663 autoreload 14964 12248 Watching for file changes with StatReloader
+INFO 2024-04-13 00:03:26,360 basehttp 14964 14404 "POST /les4/forms/ HTTP/1.1" 200 2316
+INFO 2024-04-13 00:04:11,616 views 14964 14404 Получили form.cleaned_data={'name': 'fbdfbd', 'email': 'ja@yandex.ru', 'age': 20, 'height': 25.4, 'is_active': True, 'birthdate': datetime.date(2004, 4, 12), 'gender': 'M', 'message': 'текса'}.
+INFO 2024-04-13 00:04:11,622 basehttp 14964 14404 "POST /les4/forms/ HTTP/1.1" 200 2247
+INFO 2024-04-13 00:11:04,094 autoreload 14964 12248 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 00:11:05,383 autoreload 15272 7800 Watching for file changes with StatReloader
+INFO 2024-04-13 00:12:40,484 autoreload 15272 7800 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 00:12:41,485 autoreload 7260 7912 Watching for file changes with StatReloader
+INFO 2024-04-13 00:17:13,735 autoreload 7260 7912 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 00:17:14,696 autoreload 8220 8116 Watching for file changes with StatReloader
+INFO 2024-04-13 00:18:42,068 autoreload 8220 8116 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\models.py changed, reloading.
+INFO 2024-04-13 00:18:42,973 autoreload 14740 10960 Watching for file changes with StatReloader
+INFO 2024-04-13 00:29:09,394 autoreload 8952 10408 Watching for file changes with StatReloader
+INFO 2024-04-13 00:29:11,475 basehttp 8952 14660 "GET / HTTP/1.1" 200 311
+INFO 2024-04-13 00:29:31,878 views 8952 14660 Получили form.cleaned_data={'name': 'fbdfbd', 'email': 'ja@yandex.ru', 'age': 20, 'height': 25.4, 'is_active': True, 'birthdate': datetime.date(2004, 4, 12), 'gender': 'M', 'message': 'текса'}.
+INFO 2024-04-13 00:29:31,908 basehttp 8952 14660 "POST /les4/forms/ HTTP/1.1" 200 2247
+INFO 2024-04-13 00:29:37,284 basehttp 8952 14660 "GET /les4/forms/ HTTP/1.1" 200 2161
+INFO 2024-04-13 00:30:05,850 basehttp 8952 14660 "GET /les4/user/ HTTP/1.1" 200 1088
+INFO 2024-04-13 00:31:30,188 basehttp 8952 14660 "POST /les4/user/ HTTP/1.1" 200 1372
+INFO 2024-04-13 00:32:05,946 views 8952 14660 Получили name='vsdfdsfsf', email='vv@corp.mail.ru', age=25.
+INFO 2024-04-13 00:32:06,127 basehttp 8952 14660 "POST /les4/user/ HTTP/1.1" 200 1153
+INFO 2024-04-13 00:34:57,374 autoreload 8952 10408 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 00:34:58,258 autoreload 14884 9680 Watching for file changes with StatReloader
+INFO 2024-04-13 00:35:28,881 autoreload 14884 9680 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\forms.py changed, reloading.
+INFO 2024-04-13 00:35:29,748 autoreload 2032 8988 Watching for file changes with StatReloader
+INFO 2024-04-13 00:40:12,653 autoreload 2032 8988 C:\Users\JaneM\PycharmProjects\Django\myproject\myproject\settings.py changed, reloading.
+INFO 2024-04-13 00:40:13,547 autoreload 14680 11812 Watching for file changes with StatReloader
+INFO 2024-04-13 00:41:28,521 autoreload 14680 11812 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-13 00:41:29,579 autoreload 1492 4536 Watching for file changes with StatReloader
+INFO 2024-04-13 00:42:03,455 autoreload 1492 4536 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-13 00:42:04,349 autoreload 10472 9828 Watching for file changes with StatReloader
+INFO 2024-04-13 00:44:17,706 autoreload 10472 9828 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-13 00:44:18,576 autoreload 9460 9716 Watching for file changes with StatReloader
+INFO 2024-04-13 00:44:36,490 autoreload 9460 9716 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\views.py changed, reloading.
+INFO 2024-04-13 00:44:37,461 autoreload 2076 11728 Watching for file changes with StatReloader
+INFO 2024-04-13 00:45:46,177 autoreload 2076 11728 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 00:45:47,106 autoreload 13864 10668 Watching for file changes with StatReloader
+INFO 2024-04-13 00:46:01,597 autoreload 13864 10668 C:\Users\JaneM\PycharmProjects\Django\myproject\myapp4\urls.py changed, reloading.
+INFO 2024-04-13 00:46:02,683 autoreload 12340 7216 Watching for file changes with StatReloader
+INFO 2024-04-13 00:48:31,947 basehttp 12340 12380 "GET /les4/upload/ HTTP/1.1" 200 657
+INFO 2024-04-13 01:03:34,543 basehttp 12340 7260 "POST /les4/upload/ HTTP/1.1" 200 657
