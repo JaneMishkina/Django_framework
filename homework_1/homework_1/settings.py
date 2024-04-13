@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'hw_app',
     'hw_app2',
     'hw_app3',
+    'hw_app4',
 ]
 
 MIDDLEWARE = [
@@ -163,6 +164,11 @@ LOGGING = {
             'level': 'DEBUG',
             'propagate': True,
         },
-
+        'hw_app4': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
         },
-    }
+    },
+}
+

@@ -447,3 +447,71 @@ INFO 2024-04-12 15:41:47,759 views 14476 12424 Посещение страницы hw_app3.views:
 INFO 2024-04-12 15:41:47,766 basehttp 14476 12424 "GET /homework3/ HTTP/1.1" 200 326
 INFO 2024-04-12 15:41:55,437 basehttp 14476 12424 "GET /homework3/client/4/orders/ HTTP/1.1" 200 1034
 INFO 2024-04-12 15:42:26,236 basehttp 14476 12424 "GET /homework3/client/1/orders/ HTTP/1.1" 200 674
+INFO 2024-04-13 22:10:01,657 autoreload 8820 11164 Watching for file changes with StatReloader
+INFO 2024-04-13 22:17:20,518 autoreload 5544 3560 Watching for file changes with StatReloader
+WARNING 2024-04-13 22:17:24,031 log 5544 12120 Not Found: /
+WARNING 2024-04-13 22:17:24,031 basehttp 5544 12120 "GET / HTTP/1.1" 404 2503
+WARNING 2024-04-13 22:17:24,206 log 5544 12120 Not Found: /favicon.ico
+WARNING 2024-04-13 22:17:24,218 basehttp 5544 12120 "GET /favicon.ico HTTP/1.1" 404 2554
+INFO 2024-04-13 22:17:41,782 views 5544 12120 Посещение страницы hw_app4.views: index
+INFO 2024-04-13 22:17:41,794 basehttp 5544 12120 "GET /homework4/ HTTP/1.1" 200 326
+INFO 2024-04-13 22:18:05,622 views 5544 12120 Посещение страницы hw_app4.views: about
+INFO 2024-04-13 22:18:05,625 basehttp 5544 12120 "GET /homework4/about/ HTTP/1.1" 200 279
+WARNING 2024-04-13 22:18:22,496 log 5544 12120 Not Found: /homework4/about/upload/
+WARNING 2024-04-13 22:18:22,498 basehttp 5544 12120 "GET /homework4/about/upload/ HTTP/1.1" 404 3233
+ERROR 2024-04-13 22:18:50,139 log 5544 12120 Internal Server Error: /homework4/upload/
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\homework_1\hw_app4\views.py", line 60, in upload_image
+    return render(request, 'hw_app4/upload_image.html', {'form': form})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "C:\Users\JaneM\PycharmProjects\Django\venv\Lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+ERROR 2024-04-13 22:18:50,153 basehttp 5544 12120 "GET /homework4/upload/ HTTP/1.1" 500 127614
+INFO 2024-04-13 22:20:42,860 basehttp 5544 12120 "GET /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-13 22:22:54,650 basehttp 5544 12120 "POST /homework4/upload/ HTTP/1.1" 200 664

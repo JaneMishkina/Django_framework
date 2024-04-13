@@ -1,0 +1,31 @@
+
+{% extends 'hw_app4/base.html' %}
+
+{% block title %}
+    Ordered Products
+{% endblock %}
+
+{% block content %}
+    <h1>Unique Products Ordered by Client</h1>
+
+    <h2>Last 7 Days</h2>
+    <ul>
+        {% for product in products_last_7_days %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Last 30 Days</h2>
+    <ul>
+        {% for product in products_last_30_days %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Last 365 Days</h2>
+    <ul>
+        {% for product in products_last_365_days %}
+            <li>{{ product.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
