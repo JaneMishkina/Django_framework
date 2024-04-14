@@ -515,3 +515,21 @@ django.template.exceptions.TemplateDoesNotExist: base.html
 ERROR 2024-04-13 22:18:50,153 basehttp 5544 12120 "GET /homework4/upload/ HTTP/1.1" 500 127614
 INFO 2024-04-13 22:20:42,860 basehttp 5544 12120 "GET /homework4/upload/ HTTP/1.1" 200 664
 INFO 2024-04-13 22:22:54,650 basehttp 5544 12120 "POST /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-14 11:48:00,366 autoreload 11064 12072 Watching for file changes with StatReloader
+WARNING 2024-04-14 11:48:04,158 log 11064 11848 Not Found: /
+WARNING 2024-04-14 11:48:04,161 basehttp 11064 11848 "GET / HTTP/1.1" 404 2503
+WARNING 2024-04-14 11:48:04,545 log 11064 11848 Not Found: /favicon.ico
+WARNING 2024-04-14 11:48:04,561 basehttp 11064 11848 "GET /favicon.ico HTTP/1.1" 404 2554
+INFO 2024-04-14 11:48:18,860 views 11064 11848 Посещение страницы hw_app4.views: index
+INFO 2024-04-14 11:48:18,917 basehttp 11064 11848 "GET /homework4/ HTTP/1.1" 200 326
+INFO 2024-04-14 11:48:38,897 basehttp 11064 11848 "GET /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-14 11:48:50,021 basehttp 11064 11848 "POST /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-14 11:53:33,694 autoreload 3868 228 Watching for file changes with StatReloader
+INFO 2024-04-14 11:54:26,233 autoreload 2636 7208 Watching for file changes with StatReloader
+WARNING 2024-04-14 11:54:28,202 log 2636 11728 Not Found: /
+WARNING 2024-04-14 11:54:28,216 basehttp 2636 11728 "GET / HTTP/1.1" 404 2503
+INFO 2024-04-14 11:54:39,873 basehttp 2636 11728 "GET /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-14 11:54:45,096 basehttp 2636 11728 "POST /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-14 12:07:47,868 autoreload 6364 380 Watching for file changes with StatReloader
+INFO 2024-04-14 12:07:57,814 basehttp 6364 11800 "POST /homework4/upload/ HTTP/1.1" 200 664
+INFO 2024-04-14 12:08:02,714 basehttp 6364 11800 "POST /homework4/upload/ HTTP/1.1" 200 664
