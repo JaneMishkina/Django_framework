@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'hw_app2',
     'hw_app3',
     'hw_app4',
+    'hw_app5',
 ]
 
 MIDDLEWARE = [
@@ -102,7 +103,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
@@ -168,6 +169,11 @@ LOGGING = {
             'propagate': True,
         },
         'hw_app4': {
+            'handlers': ['console', 'file'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+        'hw_app5': {
             'handlers': ['console', 'file'],
             'level': 'DEBUG',
             'propagate': True,

@@ -19,7 +19,7 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=10, decimal_places=2)
     quantity = models.IntegerField(default=0)
     added_date = models.DateField(auto_now_add=True)
-    photo = models.ImageField(upload_to='product_photos/')
+    # photo = models.ImageField(upload_to='product_photos/')
 
     def str(self):
         return (f'Product: {self.name}, description: {self.description}, price: {self.price}, '

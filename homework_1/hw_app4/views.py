@@ -41,7 +41,7 @@ def client_orders_view(request, client_id):
         for product in order.products.all():
             products_last_365_days.add(product)
 
-    return render(request, 'hw_app4/client_orders_view.html', {
+    return render(request, 'hw_app5/client_orders_view.html', {
         'products_last_7_days': products_last_7_days,
         'products_last_30_days': products_last_30_days,
         'products_last_365_days': products_last_365_days
