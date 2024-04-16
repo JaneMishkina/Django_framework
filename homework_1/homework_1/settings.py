@@ -93,10 +93,10 @@ WSGI_APPLICATION = 'homework.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'homeworkproject$default',
-        'USER': 'homeworkproject',
+        'NAME': 'JaneMishkina$default',
+        'USER': 'JaneMishkina',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
-        'HOST': 'homeworkproject.mysql.pythonanywhere-services.com',
+        'HOST': 'JaneMishkina.mysql.pythonanywhere-services.com',
         'OPTIONS': {
             'init_command': "SET NAMES 'utf8mb4';SET sql_mode='STRICT_TRANS_TABLES'",
             'charset': 'utf8mb4',
