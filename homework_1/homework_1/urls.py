@@ -27,3 +27,5 @@ urlpatterns = [
     path('homework3/', include('hw_app3.urls')),
     path('', include('hw_app4.urls')),
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
