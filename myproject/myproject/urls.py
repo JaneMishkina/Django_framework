@@ -24,4 +24,8 @@ urlpatterns = [
     path('les3/', include('myapp3.urls')),
     path('', index),
     path('les4/', include('myapp4.urls')),
+    # path('__debug__/', include("debug_toolbar.urls")),
+# Пока параметр DEBUG установлен в истину, справа будет появляться панель с отладочной информацией
+    path('les6/', include('myapp6.urls')),
+
 ]
