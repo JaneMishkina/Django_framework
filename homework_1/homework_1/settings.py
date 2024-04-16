@@ -27,7 +27,7 @@ SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
-    'homeworkproject.pythonanywhere.com'
+    'JaneMishkina.pythonanywhere.com'
 ]
 
 INTERNAL_IPS = [
